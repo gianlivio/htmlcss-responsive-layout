@@ -9,9 +9,12 @@ ul li {
 }
 
 /* HEADER */
+
+
+
 .header-container {
     background-color: aqua;
-    height: 200px;
+    height: 100px;
     width: 100%;
 }
 
@@ -21,10 +24,11 @@ ul li {
     height: 50px;
 }
 
-.header .menu  {
+.menu  {
     background-color: brown;
     width: 50px;
     height: 50px;  
+    display: none;
 }
 
 
@@ -36,8 +40,25 @@ ul li {
 }
 
 @media screen and (min-width: 992px) {
-    .menu {display: block;  
+
+    header {
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-container {
+        width: 60%;
+    }
+
+
+    .hamburger {display: none;  
     }  
+    
+    .menu {
+        display: block;        
+    }
+   
 }
 
 /* UTILITIES */
