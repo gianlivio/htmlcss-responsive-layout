@@ -8,6 +8,22 @@ ul li {
     list-style-type: none;
 }
 
+/* UTILITIES */
+
+.flex {
+    display: flex;
+}
+
+.justify-content {
+    justify-content: space-between;
+}
+
+.align-items {
+    align-items: center;
+}
+
+
+
 /* HEADER */
 
 
@@ -61,19 +77,6 @@ ul li {
    
 }
 
-/* UTILITIES */
-
-.flex {
-    display: flex;
-}
-
-.justify-content {
-    justify-content: space-between;
-}
-
-.align-items {
-    align-items: center;
-}
 
 
 
@@ -109,9 +112,7 @@ ul li {
         flex-wrap: wrap;
         gap: 10px;
         margin: 0 auto;
-        justify-content: center;
-        
-        
+        justify-content: center;   
     }
     
     .blue-card {
@@ -122,3 +123,50 @@ ul li {
         width: calc(50% - 1px);
         height: 150px;
     }
+}
+
+
+     /* 2 cards viole t section  */
+
+     .violet-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        background-color: #7a3ac9;
+        width: 100%;
+        
+      }
+
+      .violet-card {
+        background-color: #af99cb;
+        margin-bottom: 10px;
+        width: 80%; 
+        border-radius: 10px;
+        height: 150px;
+      }
+
+      @media screen and (min-width: 768px) {
+        .violet-card {
+            width: 60%;            
+        }
+      }
+
+      @media screen and (min-width: 992px) {
+        .violet-section {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: first baseline;
+            gap:10px
+        }
+
+        .violet-card {
+            width: 30%;            
+        }
+
+        .violet-card-large {
+            height: 200px;
+        }
+
+      } 
