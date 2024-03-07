@@ -233,10 +233,8 @@ ul li {
 
 
     .benefit-cards {
-        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content:center;
         width: 60%;
         gap: 20px;
         margin-top: 20px;
@@ -250,16 +248,51 @@ ul li {
 
 @media screen and (min-width: 992px) {
 
-    .benefit-cards {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content:center;
-        width: 60%;
+    .benefit-cards { 
         gap: 10px;
         margin-top: 20px;
     }
+
     .benefit-item {
         width: calc(33% - 10px);
     }
 }
+
+/* about us section */
+
+.about-us-container {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .about-us-content {
+    margin: 0 auto;
+    border: 1px dashed black;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+  }
+
+  .about-us-card{
+    border: 1px dashed black;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    height: 100px;
+    margin-top: 10px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .about-us-container {
+        gap: 20px;
+        padding: 20px 20%;     /* il giusto padding sarebbe 20px 5% da sistemare anche sulle altresezioni */
+        display: flex;
+        flex-direction: row;
+       
+    }
+
+  }
