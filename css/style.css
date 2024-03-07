@@ -277,7 +277,7 @@ ul li {
     border-radius: 10px;
   }
 
-  .about-us-card{
+  .about-us-card {
     border: 1px dashed black;
     padding: 20px;
     width: 80%;
@@ -295,4 +295,29 @@ ul li {
        
     }
 
+  }
+
+  /* GET STARTED SECTION */
+
+  .get-started-container {
+    background-color: #98cd11; 
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .get-started-section  {
+    max-width: 600px; 
+    margin: 0 auto;
+  }
+
+
+/* footer */
+  
+  .footer-container {
+    background-color: #333;
+    color: #fff; 
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    
   }
