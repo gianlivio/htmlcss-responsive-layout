@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* COMMON */
+ul li {
+    list-style-type: none;
+}
+
+/* HEADER */
+.header-container {
+    background-color: aqua;
+    height: 200px;
+    width: 100%;
+}
+
+.logo {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+}
+
+.header .menu  {
+    background-color: brown;
+    width: 50px;
+    height: 50px;  
+}
+
+
+
+.hamburger {
+    background-color: blueviolet;
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (min-width: 992px) {
+    .menu {display: block;  
+    }  
+}
+
+/* UTILITIES */
+
+.flex {
+    display: flex;
+}
+
+.justify-content {
+    justify-content: space-between;
+}
+
+.align-items {
+    align-items: center;
+}
