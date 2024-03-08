@@ -27,45 +27,36 @@ ul li {
 
 /* HEADER */
 
-
-
 .header-container {
-    background-color: aqua;
-    height: 100px;
-    width: 100%;
+    background-color: #0084fd;
+    padding: 1rem;
 }
 
 .logo {
-    background-color: blue;
-    width: 50px;
-    height: 50px;
+    
 }
 
 .menu {
-    background-color: brown;
-    width: 50px;
-    height: 50px;
+       
     display: none;
 }
 
 
-
 .hamburger {
-    background-color: blueviolet;
-    width: 50px;
-    height: 50px;
+    color: white;
 }
 
 @media screen and (min-width: 992px) {
 
     header {
-        background-color: aquamarine;
+        background-color:  #0084fd;
         display: flex;
         justify-content: center;
     }
 
     .header-container {
         width: 60%;
+       
     }
 
 
@@ -75,10 +66,28 @@ ul li {
 
     .menu {
         display: block;
+        
     }
 
-}
+    .menu ul {
+        display: flex;
+        gap: 1px;
+    }
 
+    .menu ul li a {
+        text-decoration: none;
+        color: white; 
+        padding: 0.5rem 1rem;
+        display: block;
+    }
+
+    .menu ul li a.get-started {
+        color: black;
+        background-color: white;
+        border-radius: 10px;
+        
+}
+}
 
 
 
@@ -94,7 +103,7 @@ ul li {
 }
 
 .blue-card {
-    background-color: #2a86a5;
+    background-color: #b5ddff;
     margin-bottom: 10px;
     width: 80%;
     height: 150px;
@@ -112,17 +121,17 @@ ul li {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 5px;
         margin: 0 auto;
         justify-content: center;
     }
 
     .blue-card {
-        width: calc(25% - 1px);
+        width: 25%;
     }
 
     .blue-card-large {
-        width: calc(50% - 1px);
+        width:  50%;
         height: 150px;
     }
 }
@@ -135,7 +144,7 @@ ul li {
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
-    background-color: #7a3ac9;
+    background-color: #9792e4;
     width: 100%;
 
 }
@@ -314,7 +323,7 @@ ul li {
 /* footer */
   
   .footer-container {
-    background-color: #333;
+    background-color: #333333;
     color: #fff; 
     text-align: center;
     padding: 20px;
