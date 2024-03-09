@@ -419,31 +419,66 @@ ul li {
 /* about us section */
 
 .about-us-container {
-    background-color: orange;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
-
     padding: 20px;
     text-align: center;
   }
 
-  .about-us-content {
-    margin: 0 auto;
-    border: 1px dashed black;
+  .about-us-content {  
     padding: 20px;
     width: 80%;
     border-radius: 10px;
   }
 
+  .about-us-content h2 {
+    margin-bottom: 20px;
+    color: #9792e4;
+  }
+
   .about-us-card {
-    border: 1px dashed black;
+    color: #9792e4;
     padding: 20px;
     width: 80%;
     border-radius: 10px;
-    height: 100px;
     margin-top: 10px;
   }
+
+  .about-us-card img {
+    border-radius: 50%;
+  }
+
+  .img-icon {
+    position: relative;
+  }
+
+   .img-icon i {
+    position: absolute;
+    top: 30px;
+    right:10px;
+   }
+
+  .about-us-card p {
+    margin: 20px 0;
+    font-weight: bold;
+  }
+
+  .about-us-card a {
+    text-decoration: none;
+    color: white;
+   padding: 10px;
+   border-radius: 20px;
+   background-color:  #9792e4;
+  }
+   
+  .about-us-card a span {
+    padding-right: 10px;
+  }
+
+
+
 
   @media screen and (min-width: 768px) {
     .about-us-container {
