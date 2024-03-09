@@ -494,15 +494,35 @@ ul li {
   /* GET STARTED SECTION */
 
   .get-started-container {
-    background-color: #98cd11; 
+    background-color:  #9792e4; 
     text-align: center;
     padding: 40px 20px;
+    color: white;
   }
+
+  .get-started-container > * {
+    margin: 10px 0;
+  }
+
+  .get-started-container h1 {
+    color: orange;
+  }
+
+  .get-started-container a {
+    text-decoration: none;
+    background-color: white;.
+    color:  #9792e4;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px 0:
+  }
+
+  .get-started-container a span {
+    text-decoration: underline;
+  }
+
   
-  .get-started-section  {
-    max-width: 600px; 
-    margin: 0 auto;
-  }
+ 
 
 
 /* footer */
